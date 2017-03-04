@@ -4,7 +4,8 @@
   "description": "Udacity portfolio project",
   "main": "index.js",
   "scripts": {
-    "postinstall": "grunt images",
+    "postinstall": "npm run images",
+    "images": "grunt images",
     "start": "grunt"
   },
   "author": "",
