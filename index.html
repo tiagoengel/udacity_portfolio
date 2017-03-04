@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta name="description" content="Udacity Portfolio project" />
+  <meta name="author" content="//github.com/tiagoengel">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta id="theme-color" name="theme-color" content="#7d97ad">
+
+  <title>Tiago Henrique Engel Udacity Portfolio</title>
+
+  <link rel="icon" sizes="192x192" href="/images/icon.png">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css" />
+  <link rel="stylesheet" href="dist/main.css" />
+
+</head>
+
+<body>
+  <header class="container">
+    <div class="row">
+      <div class="col-md-4 col-xs-3">
+        <img class="img-responsive logo" src="/logo.png" alt="logo"/>
+      </div>
+      <div class="col-md-8 col-xs-9 text-uppercase text-right">
+        <h1 class="text-thin super-title">Tiago Engel</h1>
+        <h4>Full Stack Ninja</h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <hr class="header_separator"/>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="hero">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="/images/banner-1600x350.jpg">
+        <source media="(min-width: 992px)" srcset="/images/banner-940x350.jpg">
+        <source media="(min-width: 732px)" srcset="/images/banner-720x350.jpg">
+        <source media="(min-width: 552px)" srcset="/images/banner-500x300.jpg">
+        <img class="img-responsive" src="/images/banner-400x300.jpg" alt="Site banner"/>
+      </picture>
+    </div>
+
+    <section class="fetured-work">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="fetured-work__title">Featured Work</h2>
+        </div>
+      </div>
+
+      <div class="row auto-justify-center">
+        <div class="col-md-4 col-sm-12 featured-work__work-presentation">
+          <picture>
+            <source media="(max-width: 552px)" srcset="/images/work-movie-trailler-150x100.png">
+            <source media="(max-width: 991px)" srcset="/images/work-movie-trailler-250x200.png">
+            <source media="(max-width: 1200px)" srcset="/images/work-movie-trailler-300x200.png">
+            <img class="featured-work__work-image img-responsive" src="/images/work-movie-trailler-350x200.png" alt="Movie Trailler"/>
+          </picture>
+          <div class="featured-work__work-desc">
+            <h3 class="featured-work__work-title text-uppercase">Movie Trailler</h3>
+            <p class="featured-work__work-link text-center">
+              <i class="typcn typcn-social-github">/</i>
+              <a href="https://github.com/tiagoengel/movie_trailer" target="_blank">
+                movie_trailer
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-xs-12 featured-work__work-presentation">
+          <picture>
+            <source media="(max-width: 552px)" srcset="/images/work-coming-soon-150x100.jpg">
+            <source media="(max-width: 991px)" srcset="/images/work-coming-soon-250x200.jpg">
+            <source media="(max-width: 1200px)" srcset="/images/work-coming-soon-300x200.jpg">
+            <img class="featured-work__work-image img-responsive" src="/images/work-coming-soon-350x200.jpg" alt="Coming Soon"/>
+          </picture>
+          <div class="featured-work__work-desc">
+            <h3 class="featured-work__work-title text-uppercase">Multi User Blog</h3>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-xs-12 featured-work__work-presentation">
+          <picture>
+            <source media="(max-width: 552px)" srcset="/images/work-coming-soon-150x100.jpg">
+            <source media="(max-width: 991px)" srcset="/images/work-coming-soon-250x200.jpg">
+            <source media="(max-width: 1200px)" srcset="/images/work-coming-soon-300x200.jpg">
+            <img class="featured-work__work-image img-responsive" src="/images/work-coming-soon-350x200.jpg" alt="Coming Soon"/>
+          </picture>
+          <div class="featured-work__work-desc text-uppercase">
+            <h3 class="featured-work__work-title text-uppercase">Item Catalog</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

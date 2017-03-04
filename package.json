@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Udacity portfolio project",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "grunt images",
+    "start": "grunt"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "~0.8.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mkdir": "~0.1.2",
+    "grunt-responsive-images": "^1.10.1"
+  }
+}
